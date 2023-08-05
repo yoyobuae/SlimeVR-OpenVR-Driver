@@ -67,7 +67,7 @@ std::string getViveRole(TrackerRole role) {
         case GENERIC_CONTROLLER:
         case LEFT_HAND:
         case RIGHT_HAND:
-            return "TrackerRole_Handed";
+            return "TrackerRole_None";
         case LEFT_FOOT:
             return "TrackerRole_LeftFoot";
         case RIGHT_FOOT:
